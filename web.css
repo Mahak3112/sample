@@ -1,0 +1,58 @@
+/*@keyframesAnimation
+{
+from {background-color:red;}
+to{background-color:yellow;}
+}*/
+/*
+@keyframes anime
+{
+	from{font-size:16px;}
+	
+}
+{
+	to{font-size:32px;}
+} 
+div{
+	font-size:16px;
+	animation-duration:5s;
+	animation-delay:2s;
+	animation-iteration-count: infinte;
+	
+	animation: anime 5s linear infinite;
+*/
+
+@keyframes bounce{
+	0%{
+		transform:transalteY(0);
+		background-color:red;
+	}
+
+25%{
+		transform:translateY(150px);
+		background-color:blue;
+} 
+50%{
+		transform:transalteY(0);
+		background-color:green;
+	}
+75%{
+		transform:translateY(75px);
+		background-color:yellow;
+} 
+100%{
+		transform:translateY(0);
+		background-color:red;
+} 
+
+}
+.bouncing_ball{
+	width:50px;
+	height: 60px;
+	background-color: red;
+	border-radius:50%;
+	position: relative;
+	animation: bounce 2s ease infinite;
+}
+
+
+	
